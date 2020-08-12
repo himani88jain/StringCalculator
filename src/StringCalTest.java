@@ -109,5 +109,15 @@ public class StringCalTest {
 		String expected = "Negative not allowed: -1\nNumber expected but ',' found at position 3";
 		assertEquals(expected, StringCal.add(number));
 	}
+	
+	@Test
+	void test13() {
+		String number = "4";
+
+		String expected = "4";
+
+		assertEquals(expected, StringCal.add(number));
+	}
+
 
 }

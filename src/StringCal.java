@@ -110,8 +110,10 @@ public class StringCal {
 		}
 
 		// Number string contains only 1 number
-		else
+		else if(number.length()==1)
 			return number;
+		else
+			return "Not valid for addition";
 
 	}
 
